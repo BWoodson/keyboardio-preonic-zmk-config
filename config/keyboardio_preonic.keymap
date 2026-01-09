@@ -27,7 +27,6 @@
         // Valid choices: [ &mit_layout, &ortho_layout ]
         zmk,physical-layout = &mit_layout;
     };
-
 //    macros {
 //        app_expose: app_expose {
 //            compatible = "zmk,behavior-macro";
@@ -40,7 +39,6 @@
 //                <&macro_release &kp LCTRL;
 //        };
 //    };
-
     keymap {
         compatible = "zmk,keymap";
 
