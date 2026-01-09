@@ -31,6 +31,8 @@
     macros {
         app_expose: app_expose {
             compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
             #binding-cells = <0>;
             bindings =
                 <&macro_press &kp LCTRL>,
