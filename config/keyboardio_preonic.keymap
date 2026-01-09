@@ -49,7 +49,7 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings =
-                <&macro_tap &rgb_ug RGB_BRI RGB_COLOR_HSB(128,100,100)>;
+                <&rgb_ug RGB_COLOR_HSB(128,100,100)>;
         };
     };
 
