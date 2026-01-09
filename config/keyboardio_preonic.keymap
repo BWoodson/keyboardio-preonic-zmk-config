@@ -28,7 +28,7 @@
         zmk,physical-layout = &mit_layout;
     };
 
-macros {
+    macros {
         expose: expose {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
